@@ -1,0 +1,11 @@
+spring:
+  redis:
+    password: 123321
+    host: 192.168.139.130
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: 1000
